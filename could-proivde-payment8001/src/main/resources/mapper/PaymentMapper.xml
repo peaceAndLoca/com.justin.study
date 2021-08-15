@@ -2,13 +2,13 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <!--add function-->
-<mapper namespace="com.justin.springcloud.dao.PaymentDao">
-    <insert id="add" parameterType="com.justin.springcloud.entities.Payment" useGeneratedKeys="true" keyProperty="id">
+<mapper namespace="com.justin.consumer.dao.PaymentDao">
+    <insert id="add" parameterType="com.justin.commonapi.entities.Payment" useGeneratedKeys="true" keyProperty="id">
         insert into payment(serial) values (#{serial});
     </insert>
     
 <!--    resultmap-->
-    <resultMap id="BaseResultMap" type="com.justin.springcloud.entities.Payment">
+    <resultMap id="BaseResultMap" type="com.justin.commonapi.entities.Payment">
         <id column="id" property="id" jdbcType="BIGINT"/>
         <id column="serial" property="serial" jdbcType="VARCHAR"/>
     </resultMap>

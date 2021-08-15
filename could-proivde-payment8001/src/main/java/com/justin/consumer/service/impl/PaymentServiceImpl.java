@@ -1,12 +1,10 @@
-package com.justin.springcloud.service.impl;
+package com.justin.consumer.service.impl;
 
-import com.justin.springcloud.dao.PaymentDao;
-import com.justin.springcloud.entities.Payment;
-import com.justin.springcloud.service.PaymentService;
+import com.justin.commonapi.entities.Payment;
+import com.justin.consumer.dao.PaymentDao;
+import com.justin.consumer.service.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import javax.annotation.Resources;
 
 /**
  * @author JustinZhou

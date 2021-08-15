@@ -1,6 +1,6 @@
-package com.justin.springcloud.service;
+package com.justin.consumer.service;
 
-import com.justin.springcloud.entities.Payment;
+import com.justin.commonapi.entities.Payment;
 import org.apache.ibatis.annotations.Param;
 
 /**

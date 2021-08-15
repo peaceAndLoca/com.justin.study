@@ -1,16 +1,16 @@
-package com.justin.springcloud;
+package com.justin.consumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * @author JustinZhou
- * @date 2021/7/13 5:09 下午
+ * @date 2021/8/9 4:28 下午
  */
 @SpringBootApplication
-public class PaymentMain8001 {
+public class OrderMain {
 
     public static void main(String[] args) {
-        SpringApplication.run(PaymentMain8001.class);
+        SpringApplication.run(OrderMain.class);
     }
 }

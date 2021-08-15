@@ -1,6 +1,7 @@
-package com.justin.springcloud.dao;
+package com.justin.consumer.dao;
 
-import com.justin.springcloud.entities.Payment;
+
+import com.justin.commonapi.entities.Payment;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
